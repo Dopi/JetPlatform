@@ -1,0 +1,3 @@
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/GT-S8000.mk
