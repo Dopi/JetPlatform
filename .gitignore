@@ -38,6 +38,7 @@ Module.symvers
 !.gitignore
 !.mailmap
 source
+tmp
 
 usr/initramfs_data.img
 
