@@ -202,10 +202,10 @@ endif
 # (Can be overridden in the device config, e.g.: PRODUCT_LOCALES += hdpi)
 PRODUCT_LOCALES := $(strip \
 	$(PRODUCT_LOCALES) \
-	$(if $(filter %dpi,$(PRODUCT_LOCALES)),,mdpi))
+	$(if $(filter %dpi,$(PRODUCT_LOCALES)),,hdpi))
 
 # Everyone gets nodpi assets which are density-independent.
-PRODUCT_LOCALES += nodpi
+PRODUCT_LOCALES += hdpi
 
 # Assemble the list of options.
 PRODUCT_AAPT_CONFIG := $(PRODUCT_LOCALES)

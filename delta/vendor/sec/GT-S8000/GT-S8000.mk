@@ -4,9 +4,7 @@ PRODUCT_PACKAGES := \
     MediaPlayer \
     Development \
     SpareParts \
-    PackageInstaller \
-    TsCalibrate \
-    Term
+    Terminal \
 
 $(call inherit-product, build/target/product/generic.mk)
 
