@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+  <default revision="refs/tags/android-2.1_r2.1p2"
+           remote="korg" />
+
+  <project path="source/build" name="platform/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="source/bionic" name="platform/bionic" />
+
+  <project path="source/bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="source/bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="source/bootable/recovery" name="platform/bootable/recovery" />
+
+  <project path="source/dalvik" name="platform/dalvik" />
+  <project path="source/development" name="platform/development" />
+  <project path="source/frameworks/base" name="platform/frameworks/base" />
+  <project path="source/frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
+  <project path="source/frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
+  <project path="source/frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="source/frameworks/policies/base" name="platform/frameworks/policies/base" />
+  <project path="source/hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="source/hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="source/hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <project path="source/hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="source/hardware/ril" name="platform/hardware/ril" />
+  <project path="source/hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="source/hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="source/sdk" name="platform/sdk" />
+
+  <project path="source/prebuilt" name="platform/prebuilt" />
+
+  <project path="source/system/bluetooth" name="platform/system/bluetooth" />
+  <project path="source/system/core" name="platform/system/core" />
+  <project path="source/system/extras" name="platform/system/extras" />
+  <project path="source/system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="source/packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
+  <project path="source/packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="source/packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="source/packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
+  <project path="source/packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="source/packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
+  <project path="source/packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider" />
+  <project path="source/packages/providers/ImProvider" name="platform/packages/providers/ImProvider" />
+  <project path="source/packages/providers/ManagementProvider" name="platform/packages/providers/ManagementProvider" />
+  <project path="source/packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="source/packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="source/packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="source/packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider" />
+
+  <project path="source/packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" />
+  <project path="source/packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="source/packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="source/packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="source/packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="source/packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="source/packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="source/packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="source/packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="source/packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="source/packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="source/packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
+  <project path="source/packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch" />
+  <project path="source/packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
+  <project path="source/packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="source/packages/apps/IM" name="platform/packages/apps/IM" />
+  <project path="source/packages/apps/Launcher" name="platform/packages/apps/Launcher" />
+  <project path="source/packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="source/packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="source/packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="source/packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="source/packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="source/packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="source/packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="source/packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="source/packages/apps/Sync" name="platform/packages/apps/Sync" />
+  <project path="source/packages/apps/Updater" name="platform/packages/apps/Updater" />
+  <project path="source/packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+
+  <project path="source/packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="source/packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="source/packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+
+  <project path="source/packages/services/EasService" name="platform/packages/services/EasService" />
+  <project path="source/packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
+
+  <project path="source/packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="source/packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  <project path="source/packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="source/packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+
+  <project path="source/external/aes" name="platform/external/aes" />
+  <project path="source/external/apache-http" name="platform/external/apache-http" />
+  <project path="source/external/astl" name="platform/external/astl" />
+  <project path="source/external/bison" name="platform/external/bison" />
+  <project path="source/external/blktrace" name="platform/external/blktrace" />
+  <project path="source/external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="source/external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="source/external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="source/external/bsdiff" name="platform/external/bsdiff" />
+  <project path="source/external/bzip2" name="platform/external/bzip2" />
+  <project path="source/external/clearsilver" name="platform/external/clearsilver" />
+  <project path="source/external/dbus" name="platform/external/dbus" />
+  <project path="source/external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="source/external/dosfstools" name="platform/external/dosfstools" />
+  <project path="source/external/dropbear" name="platform/external/dropbear" />
+  <project path="source/external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="source/external/elfcopy" name="platform/external/elfcopy" />
+  <project path="source/external/elfutils" name="platform/external/elfutils" />
+  <project path="source/external/embunit" name="platform/external/embunit" />
+  <project path="source/external/emma" name="platform/external/emma" />
+  <project path="source/external/esd" name="platform/external/esd" />
+  <project path="source/external/expat" name="platform/external/expat" />
+  <project path="source/external/fdlibm" name="platform/external/fdlibm" />
+  <project path="source/external/freetype" name="platform/external/freetype" />
+  <project path="source/external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="source/external/gdata" name="platform/external/gdata" />
+  <project path="source/external/genext2fs" name="platform/external/genext2fs" />
+  <project path="source/external/giflib" name="platform/external/giflib" />
+  <project path="source/external/googleclient" name="platform/external/googleclient" />
+  <project path="source/external/grub" name="platform/external/grub" />
+  <project path="source/external/gtest" name="platform/external/gtest" />
+  <project path="source/external/icu4c" name="platform/external/icu4c" />
+  <project path="source/external/ipsec-tools" name="platform/external/ipsec-tools" />
+  <project path="source/external/iptables" name="platform/external/iptables" />
+  <project path="source/external/jdiff" name="platform/external/jdiff" />
+  <project path="source/external/jhead" name="platform/external/jhead" />
+  <project path="source/external/jpeg" name="platform/external/jpeg" />
+  <project path="source/external/junit" name="platform/external/junit" />
+  <project path="source/external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="source/external/lcc" name="platform/external/lcc" />
+  <project path="source/external/libffi" name="platform/external/libffi" />
+  <project path="source/external/libpcap" name="platform/external/libpcap" />
+  <project path="source/external/libpng" name="platform/external/libpng" />
+  <project path="source/external/libxml2" name="platform/external/libxml2" />
+  <project path="source/external/mtpd" name="platform/external/mtpd" />
+  <project path="source/external/netcat" name="platform/external/netcat" />
+  <project path="source/external/netperf" name="platform/external/netperf" />
+  <project path="source/external/neven" name="platform/external/neven" />
+  <project path="source/external/opencore" name="platform/external/opencore" />
+  <project path="source/external/openssl" name="platform/external/openssl" />
+  <project path="source/external/openvpn" name="platform/external/openvpn" />
+  <project path="source/external/oprofile" name="platform/external/oprofile" />
+  <project path="source/external/ping" name="platform/external/ping" />
+  <project path="source/external/ppp" name="platform/external/ppp" />
+  <project path="source/external/proguard" name="platform/external/proguard" />
+  <project path="source/external/protobuf" name="platform/external/protobuf" />
+  <project path="source/external/qemu" name="platform/external/qemu" />
+  <project path="source/external/safe-iop" name="platform/external/safe-iop" />
+  <project path="source/external/skia" name="platform/external/skia" />
+  <project path="source/external/sonivox" name="platform/external/sonivox" />
+  <project path="source/external/speex" name="platform/external/speex" />
+  <project path="source/external/sqlite" name="platform/external/sqlite" />
+  <project path="source/external/srec" name="platform/external/srec" />
+  <project path="source/external/strace" name="platform/external/strace" />
+  <project path="source/external/svox" name="platform/external/svox" />
+  <project path="source/external/tagsoup" name="platform/external/tagsoup" />
+  <project path="source/external/tcpdump" name="platform/external/tcpdump" />
+  <project path="source/external/tesseract" name="platform/external/tesseract" />
+  <project path="source/external/tinyxml" name="platform/external/tinyxml" />
+  <project path="source/external/tremor" name="platform/external/tremor" />
+  <project path="source/external/webkit" name="platform/external/webkit" />
+  <project path="source/external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="source/external/xdelta3" name="platform/external/xdelta3" />
+  <project path="source/external/xmlwriter" name="platform/external/xmlwriter" />
+  <project path="source/external/yaffs2" name="platform/external/yaffs2" />
+  <project path="source/external/zlib" name="platform/external/zlib" />
+
+  <project path="source/vendor/sample" name="platform/vendor/sample" />
+
+  <project path="source/cts" name="platform/cts" />
+</manifest>
+
+
