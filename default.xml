@@ -84,7 +84,7 @@
   <project path="source/packages/apps/Sync" name="platform/packages/apps/Sync" />
   <project path="source/packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="source/packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="source/packages/apps/AWNLauncher" name="dopi/JetPlatform_packages_apps_launcher" remote="github" revision="master" />
+  <project path="source/packages/apps/ADWLauncher" name="dopi/JetPlatform_packages_apps_launcher" remote="github" revision="master" />
   <project path="source/packages/apps/Superuser" name="dopi/JetDroid_packages_apps_superuser" remote="github" revision="eclair-froyo" />
   <project path="source/packages/apps/Openmanager" name="dopi/JetDroid_packages_apps_openmanager" remote="github" />
 
